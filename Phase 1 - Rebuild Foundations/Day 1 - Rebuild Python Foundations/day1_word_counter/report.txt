@@ -1,0 +1,4 @@
+File: D:\Python-RoadMap\Phase 1 - Rebuild Foundations\Day 1 - Rebuild Python Foundations\day1_word_counter\sample.txt
+Words: 122
+Characters: 860
+Lines: 1

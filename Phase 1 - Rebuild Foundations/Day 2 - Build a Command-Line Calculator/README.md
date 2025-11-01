@@ -232,5 +232,17 @@ git push
 ## 🧠 **Reflection Questions**
 
 1. How do `try/except` blocks improve code reliability?
+Answer.
+```
+It helps in handling expecting errors and ensure the program run even if faced one. It also helps in identifying error beyond what I have expected.
+```
 2. Why is `float()` used for inputs instead of `int()`?
+Answer.
+```
+Float is used instead of int as it is easy to handle float since I am dividing them which has a chance to be a decimal number. If num1 & num2 is int and results in a float it would rise an error. Secondly using only input() would result in have numbers taken as str values.
+```
 3. How could you refactor your code to reduce repetition?
+Answer.
+```
+Move repeated code to functions as well as Use loops and comprehensions. There is more but I have to use it first before stating it.
+```

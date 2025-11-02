@@ -175,7 +175,7 @@ Add the date & time to every task:
 
 ```python
 from datetime import datetime
-task = f"{task} (added: {datetime.now().strftime('%Y-%m-%d %H:%M')})"
+task = f"{task} (added: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')})"
 ```
 
 ### 🧾 Level 2 — Task Status

@@ -3,7 +3,6 @@
 
 import os
 import datetime
-import json
 
 TASK_FILE = "tasks.txt"
 HISTORY_FILE = "history.txt"

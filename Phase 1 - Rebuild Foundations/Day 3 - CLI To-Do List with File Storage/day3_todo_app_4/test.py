@@ -32,3 +32,13 @@ complete = task[0]
 del task[0]
 print(task)
 print(complete)
+
+
+json_data = '[{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}, {"name": "Charlie", "age": 35}]'
+data = json.loads(json_data)
+
+# Remove the dictionary where 'name' is 'Bob'
+data = [person for person in data if person['name'] != 'Bob']
+
+updated_json_data = json.dumps(data, indent=2)
+print(updated_json_data)
